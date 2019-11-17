@@ -1,45 +1,55 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>A Bit About Me</title>
-    <link rel="stylesheet" type="text/css" href="style.css">
-
+    <link rel="stylesheet" type="text/css" href="assets/css/index-style.css">
 </head>
-<header>
-<!--this is an empty holder on the header--><!--maybe use "Box-Set" to cntain the header?-->
-    <section id="left"></section>
 
-    <section id="name">Jarrod Finn</section>
- <!--This is the navigation bar within the header-->
-   <section id="navigation">
-       <nav>
-            <a href="/index.html">About</a>
-            <a href="/portfolio.html">Portfolio</a>
-            <a href="/contact.html">Contact</a>
-        </nav>
-    </section>
-</header>
-<br>
-<!--Links to the pages-->
 <body>
-<!--this is the text box containing the biography-->
-    <section id="about-me"><strong>About Me</strong>
-        <hr/>
-        <img class="about-me-image" src="assets/images/DCRice.jpeg" 
-            alt="Jarrod Finn" style="float:left;width:120px;;height:80px;">
-        </section>
+    <header>
+        <nav class="navbar">
+            <div class="name">
+                <h1>Jarrod Finn</h1>
+            </div>
+            <ul class="nav-links">
+                <li><a href="index.html">About</a></li>
+                <li><a href="portfolio.html">Portfolio</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <div class="wrapper">
+        <div class="container">
+            <br>
+            <section class="about-me"><strong>About Me</strong>
+            </section>
+            <hr />
+            <div class="content">
+<!--This is the content indside content biox-->
+            <main id="main">
+                <p><img id="about-me-image" src="assets/images/DCRice.jpeg" style="float:left;width:200px;height:180px"
+                    alt="Jarrod Finn" class="rotate90">This is the body of the page talking all about how exciting my life is! So excited about the program
+                    and what it will bring to my life. I am freaking out right now aboout how fast everything is
+                    coming. Doing my best to stay focused and calm.</p>
+                <p>I am brand new to coding. I saw this Bootcamp advertised in an email and decided to inquire a little more. It seemed like
+                    a cool chance to learn something new and further my career.
+                </p>
+            </main>
 
-        <main>
-            <p>This is the body of the page talking all about how exciting my life is!
-        </p>
-    </main>
+            </div>
+
+        </div>
+    </div>
 </body>
 
-<!--this is the footer coontaining the copyright symbol-->    
-<footer>
-        <small>Copyright&copy;</small>
-    </footer>
+<!--this is the footer coontaining the copyright symbol-->
+<footer class="footer">
+    <section id="copyright"></section>
+    <small>Copyright&copy;</small>
+</footer>
+
 </html>
