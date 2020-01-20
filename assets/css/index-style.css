@@ -5,7 +5,7 @@ box-sizing: border-box;
 header {
   border-bottom: solid 2px #cccccc;
   height: 77px;   
-  background-color: white;
+  background-color: rgb(218, 204, 11);
   font-family: 'Georgia', Times, 'Times New Roman', serif;
 
 }
@@ -21,7 +21,7 @@ body {
   margin: 0 auto 0px;
   height: 100%;
   width: 960px;
-  background-color:#ffffff;
+  background-color: rgb(218, 204, 11);
   }
   
 div.navbar::after {
@@ -34,7 +34,7 @@ div.name {
   float: left;
   color: white;
   height: 100%;
-  background: #4aaaa5;
+  background: #1b0ecc;
   padding: 0 2.5rem;
 }
   
@@ -104,7 +104,7 @@ a.hover{
 }
 
 .about-me{
-  color: #4aaaa5;
+  color: #1b0ecc;
   font-size: 2rem;
   height: 47px;
 }  
@@ -112,14 +112,14 @@ a.hover{
 
 .footer {
   position: fixed;
-  border-top: 8px solid #4aaaa5;
+  border-top: 8px solid #1b0ecc;
   width: 100%;
   left: 0;
   bottom: 0;
   text-align: center;
   color: white;
   padding-top: 30px;
-  background: #666666;  
+  background: rgb(218, 204, 11);  
 }
 
   #copyright{
